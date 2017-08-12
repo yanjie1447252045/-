@@ -1,0 +1,18 @@
+package com.hand.yanjie.Exam2;
+
+public class Salary {
+	private double sslary;
+	private int type;//1 中国   2 外国
+	public double getSslary() {
+		return sslary;
+	}
+	public void setSslary(double sslary) {
+		this.sslary = sslary;
+	}
+	public int getType() {
+		return type;
+	}
+	public void setType(int type) {
+		this.type = type;
+	}
+}

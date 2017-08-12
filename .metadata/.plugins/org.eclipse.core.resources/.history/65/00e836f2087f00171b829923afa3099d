@@ -1,0 +1,11 @@
+package com.hand.yanjie.Exam2;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输工资：");
+		String c = sc.nextInt();
+	}
+}

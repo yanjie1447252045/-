@@ -1,0 +1,54 @@
+package com.hand.yanjie.Exam2;
+
+
+
+public class Factory {
+	private int startpoint=3000;
+	public Level getComputerNative(double salary)
+	{
+		double temp= (salary-startpoint);
+		if(temp<1500)
+		{
+		}else if (temp<4500) {
+			
+		}else if(temp<9000)
+		{
+			
+		}else if(temp<35000){
+			
+		}else if(temp<55000)
+		{
+			
+		}else if(temp<80000)
+		{
+			
+		}else {
+			
+		}
+		return null;
+	}
+	public Level getComputerFroign(double salary)
+	{
+		startpoint=4800;
+		double temp= (salary-startpoint);
+		if(temp<1500)
+		{
+		}else if (temp<4500) {
+			
+		}else if(temp<9000)
+		{
+			
+		}else if(temp<35000){
+			
+		}else if(temp<55000)
+		{
+			
+		}else if(temp<80000)
+		{
+			
+		}else {
+			
+		}
+		return null;
+	}
+}

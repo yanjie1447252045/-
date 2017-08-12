@@ -1,0 +1,33 @@
+package com.hand.yanjie.Exam1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入日期：");
+		String c = sc.next();
+		try {
+			System.out.println(c);
+			Date date = getDate(c);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println("错误的此符传");
+		
+		}
+	}
+
+	public static Date getDate(String dateString) throws ParseException {
+
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");  
+			return sdf.parse(dateString);
+	}
+}

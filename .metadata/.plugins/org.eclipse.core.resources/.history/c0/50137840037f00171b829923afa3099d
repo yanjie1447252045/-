@@ -1,0 +1,22 @@
+package com.hand.yanjie.Exam1;
+
+import org.omg.CORBA.DATA_CONVERSION;
+
+public class Date {
+	private String dateString;
+	public static void main(String[] args) {
+		Date date = new Date();
+		date.setDateString("2015-07-26");
+		date.nxetDay();
+		System.out.println(date.getDateString());
+	}
+	public String getDateString() {
+		return dateString;
+	}
+
+	public void setDateString(String dateString) {
+		this.dateString = dateString;
+	}
+
+
+}

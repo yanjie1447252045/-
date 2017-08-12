@@ -1,0 +1,10 @@
+package com.hand.yanjie.Exam2;
+
+public class ForginComputer implements BaseComputer{
+
+	public double getResult(double salary) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

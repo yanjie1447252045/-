@@ -1,0 +1,8 @@
+package com.hand.yanjie.Exam2;
+
+public class Compute {
+	public static double compute(double salary,double rate)
+	{
+		return salary*rate;
+	}
+}

@@ -1,0 +1,9 @@
+package com.hand.yanjie.Exam2;
+
+public class ForginComputer implements BaseComputer{
+	private int startpoint = 4800;
+	public double getResult(double salary) {
+		return 0;
+	}
+
+}

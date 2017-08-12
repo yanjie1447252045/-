@@ -1,0 +1,6 @@
+package com.hand.yanjie.Exam2;
+
+public class Salary {
+	private double sslary;
+	private int type;//1 中国   2 外国
+}

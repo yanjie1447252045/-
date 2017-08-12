@@ -1,0 +1,9 @@
+package com.hand.yanjie.Exam2;
+
+public class Level2 implements Level {
+
+	public double getResult(double salary) {
+		return salary*0.03;
+	}
+
+}

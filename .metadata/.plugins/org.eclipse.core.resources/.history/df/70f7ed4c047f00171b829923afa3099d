@@ -1,0 +1,10 @@
+package com.hand.yanjie.Exam2;
+
+public class Leve1 implements BaseSalary{
+
+	public double getResult(double salary) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	//低于3500
+}

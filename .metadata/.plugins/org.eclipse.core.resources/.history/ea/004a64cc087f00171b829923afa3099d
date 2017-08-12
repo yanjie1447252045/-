@@ -1,0 +1,10 @@
+package com.hand.yanjie.Exam2;
+
+public class NativeComputer implements BaseComputer{
+	private double statpoint=3000;
+	public double getResult(double salary) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

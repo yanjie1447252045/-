@@ -1,0 +1,9 @@
+package com.hand.yanjie.Exam1;
+
+public class Leve1 implements Base{
+
+	public double compute(double salary) {
+		return salary*0.03;
+	}
+
+}

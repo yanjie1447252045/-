@@ -1,0 +1,18 @@
+package com.hand.yanjie.Exam1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入日期");
+	    String c = sc.next();
+	    System.out.println(c);
+	}
+}

@@ -1,0 +1,8 @@
+package com.hand.yanjie.Exam2;
+
+public class Level1 implements Level{
+
+	public double getResult(double salary, int startpoint) {
+		return 0;
+	}
+}

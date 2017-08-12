@@ -1,0 +1,10 @@
+package com.hand.yanjie.Exam2;
+
+import java.util.Base64;
+
+public class Factory {
+	public BaseComputer getComputer(double salary)
+	{
+		return null;	
+	}
+}

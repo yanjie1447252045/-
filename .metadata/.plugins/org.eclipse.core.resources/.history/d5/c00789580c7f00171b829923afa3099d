@@ -1,0 +1,13 @@
+package com.hand.yanjie.Exam2;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输工资：");
+		int salary = sc.nextInt();
+		Level level = new Factory().getComputerNative(salary);
+		System.out.println(level.getResult(salary,3000));
+	}
+}

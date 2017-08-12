@@ -1,0 +1,10 @@
+package com.hand.yanjie.Exam2;
+
+public class Level1 implements Level{
+
+	public double getLevelFax(double param) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

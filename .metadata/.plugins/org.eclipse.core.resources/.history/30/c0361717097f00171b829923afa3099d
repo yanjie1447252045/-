@@ -1,0 +1,8 @@
+package com.hand.yanjie.Exam2;
+
+public class Factory {
+	public getComputer(double salary)
+	{
+		
+	}
+}

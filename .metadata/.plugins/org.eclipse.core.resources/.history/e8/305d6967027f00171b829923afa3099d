@@ -1,0 +1,5 @@
+package com.hand.yanjie.Exam1;
+
+public interface Base {
+	public double compute(double salary);
+}

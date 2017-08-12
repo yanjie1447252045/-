@@ -1,0 +1,21 @@
+package com.hand.yanjie.Exam2;
+
+
+
+public class Factory {
+	private int startpoint=3000;
+	public BaseComputer getComputerNative(double salary)
+	{
+		doube num= (salary-startpoint);
+		if(salary-startpoint<1500)
+		{
+			return new Level1();
+		}else if (salary) {
+			
+		}
+	}
+	public BaseComputer getComputerFroign(double salary)
+	{
+		if()	
+	}
+}

@@ -1,0 +1,8 @@
+package com.hand.yanjie.Exam2;
+
+public class Leve1 implements BaseSalary{
+	//低于3500
+	public double getResult(double salary) {
+		return 0;
+	}
+}

@@ -1,0 +1,10 @@
+package com.hand.yanjie.Exam1;
+
+public class Leve1 implements Base{
+
+	public int compute(int salary) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
